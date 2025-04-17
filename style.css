@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 50px;
+    background: #fafafa;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 32px;
+}
+
+.hero-text h1 span {
+    color: red;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.hero-text button,
+.section button {
+    padding: 10px 20px;
+    background: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.hero-image img,
+.section img,
+.products img {
+    max-width: 100%;
+}
+
+.section {
+    background: #f5f5f5;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-text {
+    max-width: 600px;
+}
+
+.section-text h2 span {
+    color: red;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 50px;
+}
+
+.product-item {
+    text-align: center;
+    max-width: 300px;
+}
+
+.product-item h3 {
+    margin: 20px 0 10px;
+}
+
+footer {
+    background-color: white;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .left,
+footer .contact {
+    max-width: 45%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
