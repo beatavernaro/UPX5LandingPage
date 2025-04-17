@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
     color: #333;
 }
 
@@ -19,16 +21,21 @@ nav a {
     color: #333;
 }
 
+nav a:hover {
+    color: red;
+}
+
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 60px 50px;
+    padding: 0px 50px;
     background: #fafafa;
 }
 
 .hero-text {
     max-width: 600px;
+    margin-left: 100px;
 }
 
 .hero-text h1 {
@@ -57,14 +64,14 @@ nav a {
 .hero-image img,
 .section img,
 .products img {
-    max-width: 100%;
+    max-width: 75%;
 }
 
 .section {
     background: #f5f5f5;
     padding: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -92,26 +99,66 @@ nav a {
 }
 
 footer {
-    background-color: white;
-    padding: 40px 0;
+    background: white;
+    padding: 30px 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
     flex-wrap: wrap;
+    border-top: 1px solid #eee;
 }
 
-footer .left,
-footer .contact {
-    max-width: 45%;
+.footer-section {
+    text-align: center;
+    max-width: 300px;
+    margin-bottom: 20px;
 }
 
-footer a {
+.footer-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin: 0 0 10px 0;
+}
+
+p {
+    margin: 4px 0;
+}
+
+.read-more-button {
+    display: inline-block;
+    background-color: #e74c3c;
     color: white;
     text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+}
+
+.read-more-button:hover {
+    background-color: #c0392b;
+}
+
+.logo {
+    width: 70px;
 }
 
 .copyright {
-    background: red;
+    background: #e61937;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
